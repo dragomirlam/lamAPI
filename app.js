@@ -6,7 +6,7 @@ app.use(morgan('combined'));
 
 app.get("/", (req, res) => {
   console.log('Responding to root route');
-  res.send('Hello magkes!!!');
+  res.send('Hello magkes!');
 });
 
 app.get("/users", (req, res) => {
